@@ -1,0 +1,59 @@
+package jakyungyoon.jacalendar.calendar.jaycalendar;
+
+public class TodoListItem {
+
+    int year;
+    int month;
+    int day;
+    int dayofweek;
+    String content;
+
+    public TodoListItem(int year, int month, int day, int dayofweek, String content) {
+        this.year = year;
+        this.month = month;
+        this.day = day;
+        this.dayofweek = dayofweek;
+        this.content = content;
+    }
+
+    public int getYear() {
+
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+    public int getDayofweek() {
+        return dayofweek;
+    }
+
+    public void setDayofweek(int dayofweek) {
+        this.dayofweek = dayofweek;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+}

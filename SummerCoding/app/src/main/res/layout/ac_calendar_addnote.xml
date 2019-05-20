@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvNewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:text="New event"
+        android:padding="5dp"
+        android:textSize="35sp"
+        android:textColor="@color/title_text_color"/>
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:background="@null"
+        android:hint="Enter event" />
+
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:background="@null"
+        android:text="2019"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/tabIndicatorColor"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerMonth"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="70dp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDay"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_marginTop="85dp"
+        android:inputType="date"
+        android:layout_marginStart="150dp"/>
+
+
+</RelativeLayout>
